@@ -1,0 +1,7 @@
+//JavaScript program to convert elements of a string to uppercase using map function
+
+const Students = ["Gagini","Vadivu","Arun"];
+
+const upperCaseStudents = Students.map((Student) => Student.toUpperCase());
+
+console.log(upperCaseStudents);
