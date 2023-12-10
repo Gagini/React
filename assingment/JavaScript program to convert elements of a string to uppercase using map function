@@ -1,4 +1,4 @@
-const Students = ["Vaseegaran","Gagini","Vinod","Naveen","Gowtham"];
+const Students = ["gagini","lakshana","nikitha"];
 
 const upperCaseStudents = Students.map((Student) => Student.toUpperCase());
 
