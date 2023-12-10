@@ -1,0 +1,5 @@
+const Students = ["Vaseegaran","Gagini","Vinod","Naveen","Gowtham"];
+
+Students.forEach((Student) => {
+  console.log(Student);
+});
