@@ -1,7 +1,0 @@
-//JavaScript program to print elements from a string
-
-const Students = ["Lakshana","Gagini","Nikitaa"];
-
-Students.forEach((Student) => {
-  console.log(Student);
-});
