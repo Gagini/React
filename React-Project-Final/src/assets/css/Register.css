@@ -1,0 +1,97 @@
+/* Register.css */
+
+
+
+  
+
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&family=Gabarito&family=Hedvig+Letters+Serif:opsz@12..24&family=League+Spartan:wght@100;300;500&family=Red+Hat+Display:wght@700&display=swap');
+body {
+  margin: 0;
+}
+
+div {
+  /* font-family: 'Duru Sans', sans-serif;
+  font-family: 'Gabarito', sans-serif; */
+  /* font-family: 'Hedvig Letters Serif', serif; */
+  font-family: 'League Spartan', sans-serif;
+  /* font-family: 'Red Hat Display', sans-serif; */
+}
+
+.register-container2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.container2 {
+  background-color: #dac0ff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto; 
+}
+
+.register-form2  {
+  background-color: #dac0ff;
+  width: 100%;
+  padding: 40px;
+  padding-left: 5px;
+}
+
+.heading2{
+  font-family: 'Duru Sans', sans-serif;
+  color: #0A4938;
+}
+
+.label2 {
+  text-align: left;
+  padding-left: 5px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.infocollection2 {
+  width: 100%; 
+  padding: 8px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background-color: rgba(255, 255, 255);
+}
+
+button {
+  background-color: #ffffffd3;
+  color: #cba6ff;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  margin-left: 7px;
+  margin-top: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  font-family: 'League Spartan', sans-serif;
+
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 0px;
+    height: 0px; 
+  }
+}
